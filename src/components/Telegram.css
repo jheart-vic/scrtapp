@@ -1,0 +1,13 @@
+.telegram {
+  display: flex;
+  /* height: 100vh; */
+}
+
+.main_chats {
+  flex: 1;
+}
+/* .threads {
+  border: 1px solid rgba(2, 150, 190, .1);
+  height: 100%;
+} */
+

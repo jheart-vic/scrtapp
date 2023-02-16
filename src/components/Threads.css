@@ -1,0 +1,25 @@
+.threads {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(190, 190, 190, .1);
+  cursor: pointer;
+  color: white;
+}
+
+.threads:hover {
+  background-color: rgba(2, 150, 190);
+}
+
+.threads_details {
+  margin-left: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.threads_timestamp {
+  top: 0;
+  right: 0;
+}

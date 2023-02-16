@@ -1,0 +1,44 @@
+.sidebarforthreads {
+  flex: 0.40;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  border-right: 1px solid rgba(190, 190, 190, 0.1);
+}
+
+.sidebarforthreads_header {
+  margin: 8px;
+  display: flex;
+  background-color: #2d4671;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.sidebarforthreads_search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #2d4671;
+  padding: 2px;
+  flex: 1;
+}
+
+.sidebarforthreads_input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  color: white;
+  flex: 1;
+}
+
+.sidebarforthreads_details {
+ overflow: scroll;
+ flex: 1;
+}
+
+.sidebarforthreads_details::-webkit-scrollbar {
+  display: none;
+}
